@@ -247,95 +247,199 @@ Wire Wire Line
 	6600 3350 6600 3200
 Wire Wire Line
 	7450 3200 7450 3350
-$Comp
-L hole H3
-U 1 1 5B1178BB
-P 3200 2750
-F 0 "H3" H 3350 2650 60  0000 C CNN
-F 1 "hole" H 3200 2850 60  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 3200 2750 60  0001 C CNN
-F 3 "" H 3200 2750 60  0001 C CNN
-	1    3200 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L hole H4
-U 1 1 5B1179B2
-P 4050 2750
-F 0 "H4" H 4200 2650 60  0000 C CNN
-F 1 "hole" H 4050 2850 60  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 4050 2750 60  0001 C CNN
-F 3 "" H 4050 2750 60  0001 C CNN
-	1    4050 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L hole H5
-U 1 1 5B117A14
-P 4900 2750
-F 0 "H5" H 5050 2650 60  0000 C CNN
-F 1 "hole" H 4900 2850 60  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 4900 2750 60  0001 C CNN
-F 3 "" H 4900 2750 60  0001 C CNN
-	1    4900 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L hole H6
-U 1 1 5B117AC5
-P 5750 2750
-F 0 "H6" H 5900 2650 60  0000 C CNN
-F 1 "hole" H 5750 2850 60  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 5750 2750 60  0001 C CNN
-F 3 "" H 5750 2750 60  0001 C CNN
-	1    5750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L hole H7
-U 1 1 5B117B6B
-P 6600 2750
-F 0 "H7" H 6750 2650 60  0000 C CNN
-F 1 "hole" H 6600 2850 60  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 6600 2750 60  0001 C CNN
-F 3 "" H 6600 2750 60  0001 C CNN
-	1    6600 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L hole H8
-U 1 1 5B117BDA
-P 7450 2750
-F 0 "H8" H 7600 2650 60  0000 C CNN
-F 1 "hole" H 7450 2850 60  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 7450 2750 60  0001 C CNN
-F 3 "" H 7450 2750 60  0001 C CNN
-	1    7450 2750
-	1    0    0    -1  
-$EndComp
-Text GLabel 3200 2750 1    60   Input ~ 0
+Text GLabel 3200 2500 1    60   Input ~ 0
 col0
-Text GLabel 4050 2750 1    60   Input ~ 0
+Text GLabel 4050 2500 1    60   Input ~ 0
 col1
-Text GLabel 4900 2750 1    60   Input ~ 0
+Text GLabel 4900 2500 1    60   Input ~ 0
 col2
-Text GLabel 5750 2750 1    60   Input ~ 0
+Text GLabel 5750 2500 1    60   Input ~ 0
 col3
-Text GLabel 6600 2750 1    60   Input ~ 0
+Text GLabel 6600 2500 1    60   Input ~ 0
 col4
-Text GLabel 7450 2750 1    60   Input ~ 0
+Text GLabel 7450 2550 1    60   Input ~ 0
+col5
+Text GLabel 9200 3750 2    60   Input ~ 0
+row0
+$Comp
+L 1pin P3
+U 1 1 5B11B18D
+P 4900 2550
+F 0 "P3" H 5000 2500 60  0000 C CNN
+F 1 "1pin" H 5000 2700 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 4900 2550 60  0001 C CNN
+F 3 "" H 4900 2550 60  0001 C CNN
+	1    4900 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P4
+U 1 1 5B11B29A
+P 5750 2550
+F 0 "P4" H 5850 2500 60  0000 C CNN
+F 1 "1pin" H 5850 2700 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 5750 2550 60  0001 C CNN
+F 3 "" H 5750 2550 60  0001 C CNN
+	1    5750 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P2
+U 1 1 5B11CC1A
+P 4050 2550
+F 0 "P2" H 4150 2500 60  0000 C CNN
+F 1 "1pin" H 4150 2700 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 4050 2550 60  0001 C CNN
+F 3 "" H 4050 2550 60  0001 C CNN
+	1    4050 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P1
+U 1 1 5B11CCBC
+P 3200 2550
+F 0 "P1" H 3300 2500 60  0000 C CNN
+F 1 "1pin" H 3300 2700 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 3200 2550 60  0001 C CNN
+F 3 "" H 3200 2550 60  0001 C CNN
+	1    3200 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P5
+U 1 1 5B11D300
+P 6600 2550
+F 0 "P5" H 6700 2500 60  0000 C CNN
+F 1 "1pin" H 6700 2700 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 6600 2550 60  0001 C CNN
+F 3 "" H 6600 2550 60  0001 C CNN
+	1    6600 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P6
+U 1 1 5B11D362
+P 7450 2600
+F 0 "P6" H 7550 2550 60  0000 C CNN
+F 1 "1pin" H 7550 2750 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 7450 2600 60  0001 C CNN
+F 3 "" H 7450 2600 60  0001 C CNN
+	1    7450 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P7
+U 1 1 5B11DB38
+P 9050 3750
+F 0 "P7" H 9150 3700 60  0000 C CNN
+F 1 "1pin" H 9150 3900 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 9050 3750 60  0001 C CNN
+F 3 "" H 9050 3750 60  0001 C CNN
+	1    9050 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 3750 9200 3750
+Wire Wire Line
+	7450 2550 7450 2600
+Wire Wire Line
+	6600 2500 6600 2550
+Wire Wire Line
+	5750 2500 5750 2550
+Wire Wire Line
+	4900 2500 4900 2550
+Wire Wire Line
+	4050 2500 4050 2550
+Wire Wire Line
+	3200 2500 3200 2550
+Text GLabel 3150 1850 1    60   Input ~ 0
+col0
+Text GLabel 4000 1850 1    60   Input ~ 0
+col1
+Text GLabel 4850 1850 1    60   Input ~ 0
+col2
+Text GLabel 5700 1850 1    60   Input ~ 0
+col3
+Text GLabel 6550 1850 1    60   Input ~ 0
+col4
+Text GLabel 7400 1900 1    60   Input ~ 0
 col5
 $Comp
-L hole H9
-U 1 1 5B1189B7
-P 8950 3750
-F 0 "H9" H 9100 3650 60  0000 C CNN
-F 1 "hole" H 8950 3850 60  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 8950 3750 60  0001 C CNN
-F 3 "" H 8950 3750 60  0001 C CNN
-	1    8950 3750
-	1    0    0    -1  
+L 1pin P10
+U 1 1 5B11F5E7
+P 4850 1900
+F 0 "P10" H 4950 1850 60  0000 C CNN
+F 1 "1pin" H 4950 2050 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 4850 1900 60  0001 C CNN
+F 3 "" H 4850 1900 60  0001 C CNN
+	1    4850 1900
+	-1   0    0    1   
 $EndComp
-Text GLabel 8950 3750 2    60   Input ~ 0
-row0
+$Comp
+L 1pin P11
+U 1 1 5B11F5ED
+P 5700 1900
+F 0 "P11" H 5800 1850 60  0000 C CNN
+F 1 "1pin" H 5800 2050 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 5700 1900 60  0001 C CNN
+F 3 "" H 5700 1900 60  0001 C CNN
+	1    5700 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P9
+U 1 1 5B11F5F3
+P 4000 1900
+F 0 "P9" H 4100 1850 60  0000 C CNN
+F 1 "1pin" H 4100 2050 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 4000 1900 60  0001 C CNN
+F 3 "" H 4000 1900 60  0001 C CNN
+	1    4000 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P8
+U 1 1 5B11F5F9
+P 3150 1900
+F 0 "P8" H 3250 1850 60  0000 C CNN
+F 1 "1pin" H 3250 2050 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 3150 1900 60  0001 C CNN
+F 3 "" H 3150 1900 60  0001 C CNN
+	1    3150 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P12
+U 1 1 5B11F5FF
+P 6550 1900
+F 0 "P12" H 6650 1850 60  0000 C CNN
+F 1 "1pin" H 6650 2050 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 6550 1900 60  0001 C CNN
+F 3 "" H 6550 1900 60  0001 C CNN
+	1    6550 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1pin P13
+U 1 1 5B11F605
+P 7400 1950
+F 0 "P13" H 7500 1900 60  0000 C CNN
+F 1 "1pin" H 7500 2100 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.27mm" H 7400 1950 60  0001 C CNN
+F 3 "" H 7400 1950 60  0001 C CNN
+	1    7400 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 1900 7400 1950
+Wire Wire Line
+	6550 1850 6550 1900
+Wire Wire Line
+	5700 1850 5700 1900
+Wire Wire Line
+	4850 1850 4850 1900
+Wire Wire Line
+	4000 1850 4000 1900
+Wire Wire Line
+	3150 1850 3150 1900
 $EndSCHEMATC
